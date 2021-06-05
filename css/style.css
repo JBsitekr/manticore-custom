@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+}
+
+
+:root {
+    --app-height: 100%;
+ }
+
+body {
+    font-family: monospace;
+    background-color: rgba(8, 8, 8, 0.92);
+    color: #e5e5e5;
+    text-align: center;
+}
+
+.header {
+    margin: 30px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: var(--app-height);
+}
+
+h5 {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+.v{
+  position: relative;
+  	top: 320px;
+}
+
+.exploitButton {
+  position: relative;
+  	top: 330px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: #202020;
+    color: #e5e5e5;
+    padding: 15px;
+    width: 175px;
+    font-size: 15px;
+    margin: 30px;
+}
